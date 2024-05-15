@@ -12,7 +12,7 @@ import java.util.Scanner;
 import static service.Menu.requestIntegerInput;
 
 //todo обсервер не более 1 раза , меню отдельный класс и прокси и из мейна туда методы,нормальный прокси, найти структырный паттерн
-public class ControlPanel implements ControlPanelProxy{
+public class ControlPanel implements ControlPanelProxy{ // version 1
     private final int width;
     private final int height;
     private final List<Button> buttons;
